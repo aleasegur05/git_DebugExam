@@ -17,9 +17,11 @@ public class Ejercicio3
       AnalizadorPalabras analizador = new AnalizadorPalabras(s);
       char result = analizador.primerCaracterRepetido();
       
-      if (result == 0)
+      if (result == 0){
          System.out.println("No hay caracteres repetidos.");
-      else
+         }else{
          System.out.println("Primer caracter repetido = " + result);
+      
+      }   
    }
 }
